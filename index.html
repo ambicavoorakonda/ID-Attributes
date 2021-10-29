@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML-Structure</title>
+        <style>
+            .Beside {
+                display: inline;
+            }
+        </style>
+        <style>
+            .size {
+                width: 40%;
+            }
+        </style>
+    </head>
+    <body style="margin-top: 0%;">
+        <h1 style="text-align: center;margin-top: 0%;background-color: lightgrey;">ID Attributes</h1>
+        <p>In this page, we can see numbers.</p>
+        <div>
+            <ul>
+               <li class="Beside"><h4><a href="#One">1</a></h4></li>
+               <li class="Beside"><h4><a href="#Two">2</a></h4></li>
+               <li class="Beside"><h4><a href="#Three">3</a></h4></li>
+            </ul>
+            <div id="One">
+               <h2>One</h2>
+               <img class="size" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAAaVBMVEX///8AAACLi4v8/PwEBARJSUn5+fmioqLq6urx8fE9PT3IyMiYmJg1NTXPz8+goKBjY2Pl5eUQEBCEhITX19ctLS0bGxutra1DQ0NSUlJoaGhvb2+QkJC+vr7ExMR6enpYWFgjIyO2trY9aC7xAAACJElEQVR4nO3ca3OaQBiG4cXFXU4qEqinprb+/x9ZXhAxif3YMtPnvsYxM/kEd15gDapzAAAAAAAAAAAAAAAAAAAAAPAf8vcfftnNWI73wU/C0huzmPnPr9qgPwK2h13cxSpWugeDOxTJaOlNWUw41EmSajfI6+M9gWwDf7IpkJ0DWxBkbTEGSBUb2EXAZ/Hc734qfE7M96vicSAINrAx2G9tCB4JxBr44XEZjoNUdQ76Vwc2BR8tvVH/lB0I2bkRbxDK8+cCUg18f01sV4Vsg/484ELefq+/FpBp4HzI3mPRzIsCwQYu/3FMntaGeg1CFq/dOARp8mUWlt66v234j2ne3q6ncd/TYYG47qQauKy8bprksTruny/RvSk1cG1ZnZpxcTzt8650K6kGP7v7CMxngdyJNSjmpXFfoinOt9apNdh8uAx8q/bDywa5BlOEZhPLPAS7Uqg1mPxaX7fZsGrWazDMQb163+fzb9Ua9GeBbl3dsvB0i1GrQZd0xVvM7ivGqYJWg/oS7WL46b6qVoPw8q6yVoPXaKDW4PUbLLQavEYDGhga0MDQgAaGBjQwNKCBoQENDA1oYGhAA0MDGhga0MDQgAaGBjQwNKCBoQENDA1oYGhAA0MDGhga0MDQgAaGBjQwNKCBoQEN7H3cTw1SzQbMgX20pTquHzaS35/odb9D9SX/p495AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqPgNC0AO2iqAhd0AAAAASUVORK5CYII=" alt="One image">
+            </div>
+            <div id="Two">
+                <h2>Two</h2>
+                <img class="size" src="data:image/jpeg;base64,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" alt="Two image">
+             </div>
+             <div id="Three">
+                <h2>Three</h2>
+                <img class="size" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUCX2y-V53BkLCqQyqlSwMRUxyIfR_40WsA&usqp=CAU" alt="Three image">
+             </div>
+            <div>
+                
+            </div>
+        </div>
+    </body>
+</html>
